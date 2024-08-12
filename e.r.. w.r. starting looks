@@ -1,0 +1,19 @@
+//the start of my first episode
+var spot=+639;
+var hero=+7;
+var bob=+162;   
+draw= function() {
+background(0, 0, 0);
+fill(255, 255, 255);
+ellipse(+spot,195,180,180);
+fill(0, 0, 0);
+textSize(50);
+text("Earth",121,188);
+text("Wars",121,231);
+fill(255, 208, 0);
+text("by",bob,48);
+text("superherogod",hero,88);
+spot=spot-1;
+bob=bob+1.5;
+hero=hero+1.5;
+};
